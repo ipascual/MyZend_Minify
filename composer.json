@@ -1,5 +1,5 @@
 {
-    "name": "MyZend/Minify",
+    "name": "myzend/minify",
     "description": "Zend Framework 2 module which uses the Steve (mrclay) Clay's Minify library for styles and scripts minification.",
     "type": "library",
     "license": "BSD-2-Clause",
