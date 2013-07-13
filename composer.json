@@ -1,0 +1,29 @@
+{
+    "name": "MyZend/Minify",
+    "description": "Zend Framework 2 module which uses the Steve (mrclay) Clay's Minify library for styles and scripts minification.",
+    "type": "library",
+    "license": "BSD-2-Clause",
+    "keywords": [
+        "zf2",
+        "minify"
+    ],
+    "authors": [
+        {
+            "name": "Ignacio Pascual",
+            "email": "ipascual@unexpectedit.com"
+        }
+    ],
+    "require": {
+        "php":                               ">=5.3.3",
+        "zendframework/zendframework":       "2.*"
+        "mrclay/minify":					"dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Geolocation": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    },
+}
