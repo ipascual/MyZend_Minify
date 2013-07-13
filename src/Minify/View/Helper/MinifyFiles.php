@@ -7,9 +7,9 @@ use Zend\View\Helper\AbstractHelper;
 class MinifyFiles extends AbstractHelper
 {
 	public function __invoke($file) {
-		$publicFolder = "/var/www/htdocs/leaseapp.com/public";
+		$publicFolder = getcwd()."/public";
 		$minifyName = "min-";
-		
+
 		$filesToMinify = array();
 		$minifyFolder = $publicFolder;
 		$hashName = "";
