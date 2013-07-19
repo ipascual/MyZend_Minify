@@ -31,7 +31,7 @@ class Module implements ConfigProviderInterface, ViewHelperProviderInterface
     {
         return array(
             'invokables' => array(
-                'minifyFiles' => 'Minify\View\Helper\MinifyFiles'
+                'minify' => 'Minify\View\Helper\MinifyHelper'
             )
         );
     }
