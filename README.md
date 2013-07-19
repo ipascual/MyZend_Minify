@@ -1,7 +1,5 @@
 MyZend / Minify
 =======
-Version 0.9
-
 
 Usage
 ------------
