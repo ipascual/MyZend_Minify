@@ -55,8 +55,10 @@ class MinifyHelper extends AbstractHelper
 	public function fileExists($file) {
 		
 		$finalMinifyName = false;
-		foreach(glob($file) as $localFile) {
-			$finalMinifyName = basename($localFile);
+		if(glob($file)) {
+			foreach(glob($file) as $localFile) {
+				$finalMinifyName = basename($localFile);
+			}
 		}
 		return $finalMinifyName;
 	}
